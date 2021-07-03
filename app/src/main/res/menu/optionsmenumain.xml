@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/it_profile"
+        android:title="@string/btn_profile"
+        >
+    </item>
+    <item android:id="@+id/it_nordic"
+        android:title="@string/btn_nordic"
+
+        >
+    </item>
+    <item android:id="@+id/it_plan"
+        android:title="@string/btn_plan"
+        >
+    </item>
+    <item android:id="@+id/it_share"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="@string/partilhar"
+        app:showAsAction="ifRoom"
+        >
+    </item>
+    <item android:id="@+id/it_about"
+        android:icon="@drawable/ic_outline_info_24"
+        android:title="@string/about"
+        app:showAsAction="ifRoom"
+        >
+    </item>
+</menu>

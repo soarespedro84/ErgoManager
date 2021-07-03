@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RGPDConsent">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+       >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/txtRGPDTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:textSize="20sp"
+                android:text="@string/privacyPoliceTitle"
+                app:layout_constraintBottom_toTopOf="@+id/txtRGPDMain"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtRGPDMain"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txtPrivacy"
+                app:layout_constraintBottom_toTopOf="@+id/checkBoxPrivacy"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtRGPDTitle" />
+
+            <CheckBox
+                android:id="@+id/checkBoxPrivacy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/privacypolice"
+                android:checked="false"
+                app:layout_constraintBottom_toTopOf="@+id/checkBoxNotifications"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtRGPDMain" />
+
+            <CheckBox
+                android:id="@+id/checkBoxNotifications"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/rgpdNotifications"
+                app:layout_constraintBottom_toTopOf="@id/btnSaveRGPD"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/checkBoxPrivacy" />
+
+            <Button
+                android:id="@+id/btnSaveRGPD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:onClick="saveRGPD"
+                android:text="Enviar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/checkBoxNotifications" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</android.widget.RelativeLayout>

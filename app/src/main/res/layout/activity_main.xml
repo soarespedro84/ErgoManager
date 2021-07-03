@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabNewNordic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:clickable="true"
+        android:onClick="newNordic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_addchart_24"
+        app:tint="@android:color/white" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="24sp"
+                android:onClick="viewProfile"
+                app:layout_constraintBottom_toTopOf="@+id/cardAge"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_profile_black"
+                app:tint="@color/teal_700" />
+
+            <TextView
+                android:id="@+id/txtWelcome"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="start|top"
+                android:onClick="viewProfile"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingRight="10dip"
+                android:text="@string/txt_welcome"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/imgProfile"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardAge"
+                android:layout_width="140sp"
+                android:layout_height="70sp"
+                android:layout_margin="20sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/lightgrey"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtWelcome">
+
+                <TextView
+                    android:id="@+id/txtCardAgeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="5sp"
+                    android:text="Idade"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/cardAgeValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_margin="5sp"
+                    android:text="IDADE"
+                    android:textSize="20dip" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardIMC"
+                android:layout_width="140sp"
+                android:layout_height="70sp"
+                android:layout_margin="20sp"
+                app:cardBackgroundColor="@color/lightgrey"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtWelcome">
+
+                <TextView
+                    android:id="@+id/txtCardIMCtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="5sp"
+                    android:text="IMC"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/cardIMCValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_margin="5sp"
+                    android:text="IMCVAL"
+                    android:textSize="20dip" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardRF"
+                android:layout_width="140sp"
+                android:layout_height="70sp"
+                android:layout_margin="20sp"
+                app:cardBackgroundColor="@color/lightgrey"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardIMC">
+
+                <TextView
+                    android:id="@+id/txtCardRFtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="5sp"
+                    android:text="Fatores Risco"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/cardRFValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_margin="5sp"
+                    android:text="FR"
+                    android:textSize="20dip" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardErgoRisk"
+                android:layout_width="140sp"
+                android:layout_height="70sp"
+                android:layout_margin="20sp"
+                app:cardBackgroundColor="@color/lightgrey"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardAge">
+
+                <TextView
+                    android:id="@+id/txtCardErgotitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="5sp"
+                    android:text="Risco Ergonómico"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/cardErgoValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_margin="5sp"
+                    android:text="FR"
+                    android:textSize="20dip" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardShowPlan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="20sp"
+                android:layout_marginTop="64dp"
+                android:height="40dp"
+                android:clickable="true"
+                android:elevation="10sp"
+                android:onClick="listPlan"
+                android:textSize="20sp"
+                android:visibility="visible"
+                app:cardBackgroundColor="@color/teal_700"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardErgoRisk">
+
+                <TextView
+                    android:id="@+id/txtCardPlan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:layout_margin="5sp"
+                    android:text="Plano de Exercício"
+                    android:textColor="@color/lightgrey"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewNordic"
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:layout_margin="20sp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:layout_constraintBottom_toTopOf="@id/cardViewRegion"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardShowPlan">
+
+                <com.jjoe64.graphview.GraphView
+                    android:id="@+id/idGraphView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:background="@color/lightgrey"
+                    android:clickable="true"
+                    android:onClick="listNordic"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="parent" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewRegion"
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:layout_margin="20sp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cardViewNordic">
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/idGraphViewRegion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lightgrey"
+                    android:clickable="true"
+                    android:onClick="listNordic"
+                    app:layout_constraintBottom_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="parent" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <Button
+                android:id="@+id/btnNewUser"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20sp"
+                android:height="40dp"
+                android:gravity="center_horizontal"
+                android:onClick="newUserCreateButton"
+                android:text="@string/btn_newProfile"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cardViewRegion" />
+
+            <Button
+                android:id="@+id/btnStartNow"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="20sp"
+                android:height="40dp"
+                android:onClick="newNordic"
+                android:text="Começar Agora"
+                android:textSize="18sp"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnNewUser" />
+
+            <ListView
+                android:id="@+id/lstUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@+id/lstNordicsMain"
+                app:layout_constraintEnd_toStartOf="@+id/lstNordicsMain"
+                app:layout_constraintStart_toStartOf="@+id/lstNordicsMain"
+                app:layout_constraintTop_toTopOf="@+id/lstNordicsMain" />
+
+            <ListView
+                android:id="@+id/lstNordicsMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:enabled="false"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="205dp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

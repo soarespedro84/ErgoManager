@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    >
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Plano de Exercícios"
+                android:gravity="center"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:textSize="20sp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Duração: 30 segundos"
+                android:gravity="start"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:textSize="17dip"/>
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Frequência: 3x/dia"
+                android:gravity="start"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:textSize="17dip"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblNeck"
+                android:text="@string/lbl_neck"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:textSize="20sp"
+                android:visibility="gone"/>
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dip"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/pescoco1"
+                    android:id="@+id/neck1"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/pescoco2"
+                    android:id="@+id/neck2"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/pescoco3"
+                    android:id="@+id/neck3"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblShoulder"
+                android:text="@string/lbl_shoulder"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:textSize="20sp"
+                android:visibility="gone"/>
+
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dip"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/ombros1"
+                    android:id="@+id/shoulder1"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/ombros2"
+                    android:id="@+id/shoulder2"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/torax1"
+                    android:id="@+id/shoulder3"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblUpBack"
+                android:text="@string/lbl_up_back"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:textSize="20sp"
+                android:visibility="gone"/>
+
+
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dip"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/torax1"
+                    android:id="@+id/upback1"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/torax2"
+                    android:id="@+id/upback2"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/torax3"
+                    android:id="@+id/upback3"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblWristHand"
+                android:text="Antebraço/Pulso/Mão"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:textSize="20sp"
+                android:visibility="gone"/>
+
+
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dip"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/ms1"
+                    android:id="@+id/ms1"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/ms2"
+                    android:id="@+id/ms2"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/ms3"
+                    android:id="@+id/ms3"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblLowBack"
+                android:text="@string/lbl_low_back"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:textSize="20sp"
+                android:visibility="gone"/>
+
+
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dip"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/lombar1"
+                    android:id="@+id/lowback1"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/lombar2"
+                    android:id="@+id/lowback2"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/lombar3"
+                    android:id="@+id/lowback3"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblHip"
+                android:text="Anca/Coxa"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:textSize="20sp"
+                android:visibility="gone"/>
+
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dip"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/coxa1"
+                    android:id="@+id/hip1"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/coxa2"
+                    android:id="@+id/hip2"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/coxa3"
+                    android:id="@+id/hip3"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblAnkFeet"
+                android:text="@string/lbl_ank_feet"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dip"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/mi1"
+                    android:id="@+id/mi1"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/mi2"
+                    android:id="@+id/mi2"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/mi3"
+                    android:id="@+id/mi3"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dip"
+                >
+
+                <Button
+                    android:id="@+id/btnBack"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="backToMain"
+                    android:layout_alignTop="@id/lblNrNordics"
+                    android:text="@string/btn_back"
+                    android:textSize="18sp"
+                    android:height="40dp"
+                    android:layout_margin="20sp"
+                    android:layout_marginEnd="2sp"
+                    android:layout_marginStart="2sp"
+                   />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.widget.RelativeLayout>

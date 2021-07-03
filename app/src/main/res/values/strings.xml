@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Be.Ergo</string>
+    <string name="lbl_neck">Pescoço</string>
+    <string name="lbl_shoulder">Ombro</string>
+    <string name="lbl_up_back">Torax</string>
+    <string name="lbl_elbow">Cotovelo</string>
+    <string name="lbl_wrist_hand">Punho/Mão</string>
+    <string name="lbl_low_back">Lombar</string>
+    <string name="lbl_hip">Anca</string>
+    <string name="lbl_knee">Joelho</string>
+    <string name="lbl_ank_feet">Tornozelo/Pé</string>
+    <string name="lbl_smoker">Fumador</string>
+    <string name="lbl_active">Atividade Física (Frequência semanal)</string>
+    <string name="lbl_weight">Weight (kg)</string>
+    <string name="lbl_height">Height (m)</string>
+    <string name="lbl_name">Nome</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_birth_date">Data de Nascimento</string>
+    <string name="lbl_genre">Género</string>
+    <string name="lbl_masc">Masculino</string>
+    <string name="lbl_fem">Feminino</string>
+    <string name="btn_back">Voltar</string>
+    <string name="btn_create">Criar</string>
+    <string name="btn_update">Atualizar</string>
+    <string name="it_edit">Editar</string>
+    <string name="it_delete">Eliminar</string>
+    <string name="txt_welcome">Olá!! </string>
+    <string name="txt_age">A tua idade: </string>
+    <string name="txt_IMC">O teu IMC: </string>
+    <string name="btn_profile"> Ver Perfil</string>
+    <string name="btn_plan">Exercícios</string>
+    <string name="btn_nordic">Questionários</string>
+    <string name="it_Add">Adicionar</string>
+    <string name="it_orderByDate">Ordenar Por Data</string>
+    <string name="lbl_DateToday">Data de Hoje</string>
+    <string name="txt_Risk">"Fatores de Risco: "</string>
+    <string name="submit">Submeter</string>
+    <string name="no">Não</string>
+    <string name="yes">Sim</string>
+    <string name="btn_newProfile">Registar</string>
+    <string name="lbl_PIN">PIN</string>
+    <string name="it_editPIN">Alterar PIN</string>
+    <string name="txt_Ergo">Risco Ergonómico Atual:</string>
+    <string name="privacypolice">Declaro que li e concordo com a Política de Privacidade e Proteção de Dados Pessoais</string>
+    <string name="rgpdNotifications">Pretendo receber notificações e atualizações sobre produtos e serviços Be.Ergo</string>
+    <string name="dataCollection">Autorizo a Be.Ergo a gravar de forma anónima os meus dados pessoais.</string>
+    <string name="privacyPoliceTitle">Política de Privacidade e Proteção de Dados Pessoais</string>
+    <string name="txtPrivacy">
+         Esta Política de Privacidade regula o tratamento dos dados pessoais dos utilizadores recolhidos no âmbito de utilização da Aplicação para smartphones Be-Ergo (doravante “App Be-Ergo”). A aplicação é comercializada para os clientes da empresa. A privacidade dos nossos utilizadores é extremamente importante para nós, assim como o respeito integral pelas nossas obrigações legais em matéria de proteção de dados. Desta forma, a Be-Ergo procura garantir aos Utilizadores da App a devida salvaguarda da sua privacidade, adotando as medidas necessárias para proteger os seus dados pessoais. A disponibilização de dados pessoais no contexto de utilização da App implica o conhecimento das condições constantes da presente Política de Privacidade. O Utilizador poderá encontrar informação detalhada relativa à Política de Privacidade da App nos pontos seguintes.
+1. RECOLHA E TRATAMENTO DE DADOS
+1.1 A responsabilidade pelo tratamento dos dados pessoais dos Utilizadores é, nos termos do regime de proteção de dados, da empresa titular da App Be-Ergo.
+1.2 Os tratamentos de dados pessoais que ocorrem através da App são realizados no âmbito da prestação de cuidados de saúde laboral, no contexto da relação contratual que existe entre os Utilizadores, os Clientes e a Be-Ergo. Adicionalmente, podem ser tratados outros dados que sejam necessários para a gestão técnica e operacional do acesso e utilização da App, a pedido do Utilizador.
+De acordo com o regime legal aplicável, estes dados serão de acesso reservado aos médicos e profissionais de saúde adstritos à prestação dos seus cuidados de saúde. Nos casos em que assim não seja, quando os seus dados relativos à saúde e outras categorias especiais de dados forem acedidos por colaboradores não adstritos a obrigações de sigilo profissional, asseguraremos que tais colaboradores assumem obrigações contratuais de confidencialidade adequadas e, em certos casos, que tais pessoas tratarão os seus dados sob a responsabilidade e supervisão de um profissional sujeito a obrigação de sigilo profissional.
+1.3 A recolha, tratamento e armazenamento informático dos dados pessoais destina-se a viabilizar a disponibilização dos serviços da App ao utilizador mediante a sua solicitação.
+1.5 A App é essencialmente uma ferramenta de diagnóstico que permite apenas envia os dados de saúde necessários ao prestador de cuidados de saúde quando o utilizador o entende. Desta forma, não existirá informação dos utilizadores retida na plataforma, resguardando-a de maior vulnerabilidade.
+1.6 Durante a sua utilização da App, são tratadas as seguintes categoriais de dados pessoais: registos (logs) de acesso, idade, índice de massa corporal, hábitos de exercícios físico, hábitos tabágicos e níveis de dor e desconforto muscular por região corporal. Consistindo estes dados em informações relativas à sua saúde, a Be-Ergo compromete-se a tratá-los somente para efeitos da prestação dos cuidados de saúde contratados.
+1.7 A App solicitará as seguintes permissões de acesso ao seu dispositivo: ver conexões de rede e acesso completo a conexões de rede.
+1.8 As permissões referidas no número anterior serão utilizadas para permitir a interação entre o seu dispositivo móvel e a App, otimizando o seu funcionamento.
+1.9 Os sistemas operativos oferecem ao Utilizador ferramentas que lhe permitem fazer uma gestão flexível das permissões pedidas por uma aplicação, recusando ou aceitando determinadas permissões. A Be-Ergo incentiva o Utilizador a manter o seu sistema operativo atualizado para ter acesso as funções mais recentes nesta área e para manter o seu dispositivo protegido contra ameaças de segurança.
+1.10 Caso o Utilizador opte por não aceitar as permissões pedidas pela App, poderá ver a sua experiência afetada parcialmente, não sendo possível a utilização de todas as funcionalidades.
+2. DIREITOS DO TITULAR DOS DADOS
+2.1 De acordo com o regime legal de proteção de dados aplicável, o titular dos dados poderá solicitar, a todo o tempo, o acesso aos dados pessoais que lhe digam respeito, bem como a sua retificação, eliminação ou a limitação do seu tratamento, a portabilidade dos seus dados, ou poderá opor-se ao seu tratamento. Poderá exercer estes direitos através de pedido escrito dirigido ao Encarregado de Proteção de Dados (DPO) da Be-Ergo, para geral@beergo.com..
+2.2 Nos termos da lei em vigor, poderá solicitar que o acesso aos dados relativos à sua saúde seja realizado por intermédio de um médico, com habilitação própria. Assim, caso tal seja a sua vontade, deve fazer disso menção expressa no pedido que dirija ao abrigo dos números anteriores da presente Cláusula.
+2.3 Os seus direitos à luz da legislação aplicável no âmbito da proteção de dados consistem em:
+Direito de Acesso: Direito de obter a confirmação de quais são os seus dados pessoais que são tratados, bem como de obter cópia dos seus dados pessoais em fase de tratamento.
+O direito de obter a referida cópia não prejudica os direitos e liberdades de terceiros, incluindo o segredo comercial ou a propriedade intelectual e, particularmente, o direito de autor que protege o software, nem inclui o acesso às anotações pessoais do médico ou a informações que, a serem conhecidas pelo Utilizador, poriam em perigo a sua vida ou seriam suscetíveis de lhe causar grave dano à saúde, física ou psíquica.
+Direito de Retificação: Direito de solicitar a retificação dos seus dados pessoais que se encontrem inexatos ou solicitar que os dados pessoais incompletos sejam completados.
+Direito ao Apagamento: Direito de obter o apagamento dos seus dados pessoais.
+Tal direito não se aplicará quando o tratamento dos dados for necessário para o cumprimento de uma obrigação legal a que as Unidades de Saúde estejam sujeitas (p.ex., para o cumprimento de obrigações legais de conservação decorrentes da Regulamento Arquivístico para os Hospitais, preparado pelo Ministério da Saúde) ou para efeitos de declaração, exercício ou defesa de um direito num processo judicial.
+Direito à Limitação do Tratamento: Direito de solicitar a limitação do tratamento dos seus dados pessoais, solicitando a suspensão do tratamento ou a limitação do âmbito do tratamento a certas categorias de dados ou finalidades de tratamento.
+Direito à Portabilidade: Direito de receber os dados que forneceu às Unidades de Saúde em formato digital de uso corrente e de leitura automática ou solicitar a transmissão direta dos seus dados para outra entidade que passe a ser o novo responsável pelos seus dados pessoais, se o tratamento dos seus dados tiver por base o seu consentimento ou a execução de um contrato.
+Direito à Oposição: Direto de opor-se a um tratamento de dados, como por exemplo no caso de tratamento de dados para fins do envio de comunicações de marketing ou para o tratamento realizado para realizar publicidade direcionada online, com base nos interesses legítimos das Unidades de Saúde.
+2.4 Nos termos da lei, é-lhe ainda garantido o direito de, através dos referidos meios, retirar o seu consentimento para o tratamento dos dados que não sejam necessários à gestão do acesso e utilização da App, sempre que o tratamento seja efetuado com base no consentimento. Nos termos da lei, tem o direito de retirar o seu consentimento a qualquer momento, o que não invalida, no entanto, o tratamento dos dados efetuado até essa data com base no consentimento previamente dado.
+3. PARTILHA DE DADOS PESSOAIS
+3.1 Os seus dados pessoais serão transmitidos entre a empresa titular da App e o departamento de saúde da sua entidade patronal. A transmissão dos dados é essencial para permitir a gestão da sua saúde laboral.
+3.2 Poderemos comunicar os seus dados a terceiros quando a transmissão seja efetuada no âmbito do cumprimento de uma obrigação legal, de uma deliberação da Comissão Nacional de Proteção de Dados ou de outra entidade de controlo relevante, ou de uma ordem judicial; ou ainda quando a comunicação seja levada a cabo para proteger interesses vitais dos Utilizadores ou qualquer outra finalidade legítima prevista na legislação relevante.
+4. MEDIDAS DE SEGURANÇA
+4.1 A Be-Ergo desenvolve os seus melhores esforços para proteger os dados pessoais dos Utilizadores contra acessos não autorizados. Para o efeito utiliza sistemas de segurança, implementa regras e outros procedimentos, de modo a garantir a proteção dos dados pessoais, bem como para prevenir o acesso não autorizado aos dados, o uso impróprio, a sua divulgação, perda ou destruição.
+4.2 Em qualquer caso, note-se que, circulando os dados em rede internet aberta, não é possível eliminar totalmente o risco de acesso e utilização não autorizados, sendo da responsabilidade dos Utilizadores garantir e assegurar que os dispositivos e equipamentos utilizados para aceder ao Site se encontram adequadamente protegidos contra softwares nocivos, vírus informáticos e worms. A Be-Ergo sugere aos seus Utilizadores que mantenham sempre o seu browser (navegador), App, sistema operativo e software antivírus atualizado.
+4.3 Para o efeito, e para assegurar uma maior segurança, a App regista os seguintes registos de acesso: nome de Utilizador, data e hora, registo de sucesso ou insucesso na tentativa de entrada em sessão e hash criptográfico e qual a informação a que o Utilizador acede. As Be-Ergo analisa periodicamente estes registos de acesso, com vista à deteção de eventuais acessos indevidos.
+5. CONSERVAÇÃO DOS DADOS PESSOAIS
+5.1 O Be-Ergo conservará os dados pessoais recolhidos que sejam necessários para responder às solicitações dos Utilizadores apenas pelo período estritamente necessário para esse efeito.
+5.2 Os dados de acesso à App serão conservados durante o período em que os Utilizadores mantenham a sua conta ativa na App, sem prejuízo de outros períodos de conservação que, por lei, sejam de observar.
+5.3 Nos restantes casos, designadamente quando se tratem de dados relativos à saúde, são conservados nos termos da legislação aplicável ao arquivo da documentação de saúde laboral.
+6. ESCLARECIMENTOS
+Se pretender obter esclarecimentos da Be-Ergo relativamente à maneira como são tratados ou seus dados pessoais, ou exercer os direitos que lhe assistem nos termos do regime de proteção de dados, nomeadamente os que são referidos nesta Política de Privacidade, pode fazê-lo através dos meios de contacto referidos em 2.1., acima.
+7. RECLAMAÇÕES
+Caso considere que a maneira como a Be-Ergo trata os seus dados não se encontra em conformidade com a legislação de proteção de dados em vigor informamos que, sem prejuízo de qualquer outra via de recurso administrativo ou judicial, tem a possibilidade de apresentar reclamação à Comissão Nacional de Proteção de Dados ou a outra autoridade de controlo neste âmbito.
+9. ALTERAÇÕES À POLÍTICA DE PRIVACIDADE
+Poderemos implementar alterações ou atualizações à presente Política de Privacidade a qualquer momento. Qualquer alteração por nós implementada será sempre devidamente publicitada através da própria App.
+
+
+
+      </string>
+    <string name="txt_rate_title">Gosta da App Be.Ergo?</string>
+    <string name="partilhar">Partilhar</string>
+    <string name="about">Acerca de</string>
+    <string name="txt_contact">Tem dúvidas/sugestões? Contacte-nos</string>
+    <string name="enviar">Enviar</string>
+
+</resources>
